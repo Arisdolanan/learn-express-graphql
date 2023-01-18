@@ -1,0 +1,64 @@
+# Welcome to GraphiQL
+#
+# GraphiQL is an in-browser tool for writing, validating, and
+# testing GraphQL queries.
+#
+# Type queries into this side of the screen, and you will see intelligent
+# typeaheads aware of the current GraphQL type schema and live syntax and
+# validation errors highlighted within the text.
+#
+# GraphQL queries typically start with a "{" character. Lines that start
+# with a # are ignored.
+#
+# An example GraphQL query might look like:
+#
+#     {
+#       field(arg: "value") {
+#         subField
+#       }
+#     }
+#
+# Keyboard shortcuts:
+#
+#  Prettify Query:  Shift-Ctrl-P (or press the prettify button above)
+#
+#     Merge Query:  Shift-Ctrl-M (or press the merge button above)
+#
+#       Run Query:  Ctrl-Enter (or press the play button above)
+#
+#   Auto Complete:  Ctrl-Space (or just start typing)
+#
+
+# get
+# query {
+#   user{
+#   	id,
+#     name,
+#     email,
+#     phone  	
+# 	}
+# }
+
+# add
+# mutation {
+#   addUser(name:"test", email:"test@gmail.com", phone:"1234567890"){
+#     name,
+#     email,
+#     phone
+#   }
+# }
+
+# update
+# mutation {
+#   updateUser(id: "63c5fb9dfa001952e66149d7", name:"test2", email:"test@gmail.com", phone:"1234567890") {
+#     id
+#   }
+# }
+
+# delete
+# mutation {
+#   deleteUser(id:"63c5fe18bf8ab58a8dd27487") {
+#     id
+#   }
+# }
+

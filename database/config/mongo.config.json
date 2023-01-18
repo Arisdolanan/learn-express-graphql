@@ -1,0 +1,11 @@
+{
+  "development": {
+    "connectionString": "mongodb://root:example@127.0.0.1:27017/admin"
+  },
+  "test": {
+    "connectionString": "mongodb://root:example@127.0.0.1:27017/admin"
+  },
+  "production": {
+    "connectionString": "mongodb://root:example@127.0.0.1:27017/admin"
+  }
+}
